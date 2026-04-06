@@ -1,0 +1,560 @@
+Script started on 2026-04-06 03:52:20+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="143" LINES="16"]
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make hasA
+[?2004lg++ -std=c++14 -Wall -Wextra -o testerHasA testerHasA.cpp
+In file included from [01m[KFrontListHasA.h:15[m[K,
+                 from [01m[KtesterHasA.cpp:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListHasA.h:16[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KFrontListHasA.h:35:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   35 |     ItemType retrieve()  const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListHasA.h:39[m[K:
+[01m[KFrontListHasA.cpp:59:52:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 | ItemType FrontListHasA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                    [01;35m[K^~~~~[m[K
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make isA
+[?2004lg++ -std=c++14 -Wall -Wextra -o testerIsA testerIsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListIsA.h:17[m[K,
+                 from [01m[KtesterIsA.cpp:22[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:18[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:32:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   32 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:59:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:63[m[K:
+[01m[KFrontListIsA.cpp:47:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   47 | ItemType FrontListIsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.cpp:84:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   84 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kinsert[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:129:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:65:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert([01;35m[Kint newPosition[m[K, const ItemType& newEntry)
+      |                                     [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:65:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert(int newPosition, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kremove[m[K(int) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:141:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:74:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | bool FrontListIsA<ItemType>::remove([01;35m[Kint position[m[K)
+      |                                     [01;35m[K~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kvoid FrontListIsA<ItemType>::[01;32m[Kreplace[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:153:19:[m[K   required from here
+[01m[KFrontListIsA.cpp:83:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace([01;35m[Kint position[m[K, const ItemType& newEntry)
+      |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:83:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace(int position, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make asA
+[?2004lg++ -std=c++14 -Wall -Wextra -o testerAsA testerAsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListAsA.h:19[m[K,
+                 from [01m[KtesterAsA.cpp:19[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListAsA.h:37:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:42[m[K:
+[01m[KFrontListAsA.cpp:61:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   61 | ItemType FrontListAsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make run
+[?2004lg++ -std=c++14 -Wall -Wextra -o testerHasA testerHasA.cpp
+In file included from [01m[KFrontListHasA.h:15[m[K,
+                 from [01m[KtesterHasA.cpp:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListHasA.h:16[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KFrontListHasA.h:35:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   35 |     ItemType retrieve()  const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListHasA.h:39[m[K:
+[01m[KFrontListHasA.cpp:59:52:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 | ItemType FrontListHasA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                    [01;35m[K^~~~~[m[K
+g++ -std=c++14 -Wall -Wextra -o testerIsA testerIsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListIsA.h:17[m[K,
+                 from [01m[KtesterIsA.cpp:22[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:18[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:32:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   32 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:59:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:63[m[K:
+[01m[KFrontListIsA.cpp:47:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   47 | ItemType FrontListIsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.cpp:84:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   84 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kinsert[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:129:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:65:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert([01;35m[Kint newPosition[m[K, const ItemType& newEntry)
+      |                                     [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:65:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert(int newPosition, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kremove[m[K(int) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:141:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:74:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | bool FrontListIsA<ItemType>::remove([01;35m[Kint position[m[K)
+      |                                     [01;35m[K~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kvoid FrontListIsA<ItemType>::[01;32m[Kreplace[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:153:19:[m[K   required from here
+[01m[KFrontListIsA.cpp:83:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace([01;35m[Kint position[m[K, const ItemType& newEntry)
+      |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:83:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace(int position, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+g++ -std=c++14 -Wall -Wextra -o testerAsA testerAsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListAsA.h:19[m[K,
+                 from [01m[KtesterAsA.cpp:19[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListAsA.h:37:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:42[m[K:
+[01m[KFrontListAsA.cpp:61:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   61 | ItemType FrontListAsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+
+====== HAS-A ======
+./testerHasA
+========================================
+  Testing FrontListHasA (has-a / containment)
+========================================
+
+--- isEmpty / getLength on new list ---
+isEmpty()   : true
+getLength() : 0
+
+--- insert 10, 20, 30 (each goes to front) ---
+After insert(10)  front = 10  |  length = 1
+After insert(20)  front = 20  |  length = 2
+After insert(30)  front = 30  |  length = 3
+
+--- retrieve (should be 30) ---
+retrieve() = 30
+
+--- remove front entries one at a time ---
+remove() returned true
+After first remove  front = 20  |  length = 2
+remove() returned true
+After second remove  front = 10  |  length = 1
+remove() returned true
+After third remove  (list is empty)
+
+--- remove() on empty list ---
+remove() on empty list returned false
+
+--- clear() test ---
+Before clear: length = 3
+After  clear: isEmpty = true
+
+--- copy constructor test ---
+Original  :   front = 300  |  length = 3
+Copy      :   front = 300  |  length = 3
+After removing front from the copy:
+Original  :   front = 300  |  length = 3
+Copy      :   front = 200  |  length = 2
+
+--- retrieve() on empty list (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: retrieve() retreived an empty FrontList.
+
+========================================
+  FrontListHasA tests complete.
+========================================
+
+====== IS-A ======
+./testerIsA
+========================================
+  Testing FrontListIsA (is-a / public inheritance)
+========================================
+
+--- isEmpty / getLength on new list ---
+isEmpty()   : true
+getLength() : 0
+
+--- insert 10, 20, 30 (each goes to front) ---
+After insert(10)  front = 10  |  length = 1
+After insert(20)  front = 20  |  length = 2
+After insert(30)  front = 30  |  length = 3
+
+--- retrieve (should be 30) ---
+retrieve() = 30
+
+--- remove front entries one at a time ---
+remove() returned true
+After first remove  front = 20  |  length = 2
+remove() returned true
+After second remove  front = 10  |  length = 1
+remove() returned true
+After third remove  (list is empty, length = 0)
+
+--- remove() on empty list ---
+remove() on empty list returned false
+
+--- clear() test (overridden version) ---
+Before clear: length = 3
+After  clear: isEmpty = true
+
+--- copy constructor test ---
+Original  :   front = 300  |  length = 3
+Copy      :   front = 300  |  length = 3
+After removing front from the copy:
+Original  :   front = 300  |  length = 3
+Copy      :   front = 200  |  length = 2
+
+--- retrieve() on empty list (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: retrieve() called empty: FrontList.
+
+--- disabled insert(int, ItemType) (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: insert(int, ItemType) is disabled:FrontListIsA. Use insert(ItemType) to add.
+
+--- disabled remove(int) (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: remove(int) is disabled: FrontListIsA. Use remove() to remove.
+
+--- disabled replace(int, ItemType) (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: replace(int, ItemType) is disabled: FrontListIsA.
+
+========================================
+  FrontListIsA tests complete.
+========================================
+
+====== AS-A ======
+./testerAsA
+========================================
+  Testing FrontListAsA (as-a / private inheritance)
+========================================
+
+--- isEmpty / getLength on new list ---
+isEmpty()   : true
+getLength() : 0
+
+--- insert 10, 20, 30 (each goes to front) ---
+After insert(10)  front = 10  |  length = 1
+After insert(20)  front = 20  |  length = 2
+After insert(30)  front = 30  |  length = 3
+
+--- retrieve (should be 30) ---
+retrieve() = 30
+
+--- remove front entries one at a time ---
+remove() returned true
+After first remove  front = 20  |  length = 2
+remove() returned true
+After second remove  front = 10  |  length = 1
+remove() returned true
+After third remove  (list is empty, length = 0)
+
+--- remove() on empty list ---
+remove() on empty list returned false
+
+--- clear() test ---
+Before clear: length = 3
+After  clear: isEmpty = true
+
+--- copy constructor test ---
+Original  :   front = 300  |  length = 3
+Copy      :   front = 300  |  length = 3
+After removing front from the copy:
+Original  :   front = 300  |  length = 3
+Copy      :   front = 200  |  length = 2
+
+--- retrieve() on empty list (expects exception) ---
+Caught expected exception:
+  Precondition Violated Exception: retrieve() called on an empty FrontList.
+
+--- private inheritance compile-time enforcement ---
+Positional insert(int,T), remove(int), and replace(int,T)
+are inaccessible to clients at COMPILE TIME because of
+private inheritance.  No runtime test is needed or possible.
+
+========================================
+  FrontListAsA tests complete.
+========================================
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make
+[?2004lg++ -std=c++14 -Wall -Wextra -o testerHasA testerHasA.cpp
+In file included from [01m[KFrontListHasA.h:15[m[K,
+                 from [01m[KtesterHasA.cpp:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListHasA.h:16[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KFrontListHasA.h:35:32:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   35 |     ItemType retrieve()  const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListHasA.h:39[m[K:
+[01m[KFrontListHasA.cpp:59:52:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 | ItemType FrontListHasA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                    [01;35m[K^~~~~[m[K
+g++ -std=c++14 -Wall -Wextra -o testerIsA testerIsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListIsA.h:17[m[K,
+                 from [01m[KtesterIsA.cpp:22[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:18[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:32:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   32 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.h:59:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   59 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |         [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListIsA.h:63[m[K:
+[01m[KFrontListIsA.cpp:47:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   47 | ItemType FrontListIsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+[01m[KFrontListIsA.cpp:84:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   84 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kinsert[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:129:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:65:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewPosition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert([01;35m[Kint newPosition[m[K, const ItemType& newEntry)
+      |                                     [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:65:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 | bool FrontListIsA<ItemType>::insert(int newPosition, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kbool FrontListIsA<ItemType>::[01;32m[Kremove[m[K(int) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:141:18:[m[K   required from here
+[01m[KFrontListIsA.cpp:74:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 | bool FrontListIsA<ItemType>::remove([01;35m[Kint position[m[K)
+      |                                     [01;35m[K~~~~^~~~~~~~[m[K
+FrontListIsA.cpp: In instantiation of ‘[01m[Kvoid FrontListIsA<ItemType>::[01;32m[Kreplace[m[K(int, const ItemType&) [35m[K[with ItemType = int][m[K[m[K’:
+[01m[KtesterIsA.cpp:153:19:[m[K   required from here
+[01m[KFrontListIsA.cpp:83:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kposition[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace([01;35m[Kint position[m[K, const ItemType& newEntry)
+      |                                      [01;35m[K~~~~^~~~~~~~[m[K
+[01m[KFrontListIsA.cpp:83:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KnewEntry[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | void FrontListIsA<ItemType>::replace(int position, [01;35m[Kconst ItemType& newEntry[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+g++ -std=c++14 -Wall -Wextra -o testerAsA testerAsA.cpp
+In file included from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListAsA.h:19[m[K,
+                 from [01m[KtesterAsA.cpp:19[m[K:
+[01m[KListInterface.h:37:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KListInterface.h:41:9:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   41 |         [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:37:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType getEntry(int position) const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                                           [01;35m[K^~~~~[m[K
+[01m[KLinkedList.h:39:18:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   39 |                  [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                  [01;35m[K^~~~~[m[K
+In file included from [01m[KLinkedList.h:42[m[K:
+[01m[KLinkedList.cpp:154:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  154 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+[01m[KLinkedList.cpp:172:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+  172 |     [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:20[m[K:
+[01m[KFrontListInterface.h:51:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   51 |     virtual ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep) = 0;
+      |                                       [01;35m[K^~~~~[m[K
+[01m[KFrontListAsA.h:37:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   37 |     ItemType retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep);
+      |                               [01;35m[K^~~~~[m[K
+In file included from [01m[KFrontListAsA.h:42[m[K:
+[01m[KFrontListAsA.cpp:61:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-Wdeprecated]8;;[m[K]
+   61 | ItemType FrontListAsA<ItemType>::retrieve() const [01;35m[Kthrow[m[K(PrecondViolatedExcep)
+      |                                                   [01;35m[K^~~~~[m[K
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ make clean
+[?2004lrm -f testerHasA testerIsA testerAsA
+[?2004h[0;32m@Lynnywoo [0m➜ [1;34m/workspaces/project7-frontlist [0;36m([1;31mmain[0;36m) [0m$ exit
+[?2004lexit
+
+Script done on 2026-04-06 03:53:21+00:00 [COMMAND_EXIT_CODE="0"]
